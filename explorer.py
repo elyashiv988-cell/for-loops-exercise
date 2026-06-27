@@ -74,10 +74,15 @@ for i in matrix:
     for n in i:
         single_list.append(n)
 print(single_list)
-'''
+
 # 5
 words = ['hello', 'world', 'python']
 uppercase=[]
 for i in words:
     uppercase.append(i.upper())
 print(uppercase)
+'''
+# part 3
+# self learn
+# 1 looping by value the loop runs every value in the list, and looping by index the loop runs only in the index. 
+# 2 when we want to create a new list from the list By filtering the values. 
