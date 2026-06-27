@@ -61,8 +61,23 @@ result=[]
 for n in range(1,6):
     result.append((n,n**2))
 print(result)
-'''
+
 # 3
 fruits= ['apple', 'banana', 'cherry','lemon']
 for i, fruits in enumerate(fruits,start=1):
     print(i,fruits)
+
+# 4
+matrix = [[1, 2], [3, 4], [5, 6]] 
+single_list=[]
+for i in matrix:
+    for n in i:
+        single_list.append(n)
+print(single_list)
+'''
+# 5
+words = ['hello', 'world', 'python']
+uppercase=[]
+for i in words:
+    uppercase.append(i.upper())
+print(uppercase)
